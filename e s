@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T13:55:13.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="wQs7_JGxIwlvXoix7cWt" version="14.4.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-02T13:55:28.348Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="pz3tXtGntaoW_NRRC3GW" version="14.4.4" type="github" pages="5">
   <diagram id="2MhzIjv3Yo5l0YuiEoNO" name="Page-1">
     <mxGraphModel dx="515" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -382,7 +382,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_T1KNJBseTOLYCdqdAtO-3" value="生存意志和力量权利意志" style="whiteSpace=wrap;html=1;" vertex="1" parent="3YATu6ljCRoUqbJeFnkG-1">
-          <mxGeometry x="250" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_T1KNJBseTOLYCdqdAtO-8" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3YATu6ljCRoUqbJeFnkG-1" source="_T1KNJBseTOLYCdqdAtO-5" target="_T1KNJBseTOLYCdqdAtO-7">
           <mxGeometry relative="1" as="geometry" />
