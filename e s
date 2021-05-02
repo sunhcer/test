@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T13:40:19.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="MofPgGeBNkGbAIEwxUBI" version="14.4.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-02T13:47:54.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="SrUKaQCYiZSCASZX5A7T" version="14.4.4" type="github" pages="5">
   <diagram id="2MhzIjv3Yo5l0YuiEoNO" name="Page-1">
     <mxGraphModel dx="515" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -394,10 +394,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_T1KNJBseTOLYCdqdAtO-7" value="骆驼狮子小孩&lt;br&gt;我应该如何，活出真我，无视一切勇敢创造" style="whiteSpace=wrap;html=1;" vertex="1" parent="3YATu6ljCRoUqbJeFnkG-1">
-          <mxGeometry x="180" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_T1KNJBseTOLYCdqdAtO-9" value="道德不存在于弱者的价值观而存在于li liang" style="whiteSpace=wrap;html=1;" vertex="1" parent="3YATu6ljCRoUqbJeFnkG-1">
-          <mxGeometry x="180" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
