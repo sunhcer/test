@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-05T13:14:36.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="PCoE4wUpxRnxZej-ayg4" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-05T13:16:40.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="EUie7EQQEHbrQRyifxrt" version="14.4.4" type="github">
   <diagram id="qWQhet4JKzyGcTZ0pY5L" name="mysql调优">
     <mxGraphModel dx="1103" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,6 +37,9 @@
         <mxCell id="2MAcBIraThOZ4Z6f41GA-6" value="场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="330" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2MAcBIraThOZ4Z6f41GA-10" target="2MAcBIraThOZ4Z6f41GA-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2MAcBIraThOZ4Z6f41GA-10" value="索引失效" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="330" width="120" height="60" as="geometry" />
         </mxCell>
@@ -46,8 +49,29 @@
         <mxCell id="2MAcBIraThOZ4Z6f41GA-13" value="有索引但是没用上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="430" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2MAcBIraThOZ4Z6f41GA-17" target="2MAcBIraThOZ4Z6f41GA-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2MAcBIraThOZ4Z6f41GA-17" target="2MAcBIraThOZ4Z6f41GA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2MAcBIraThOZ4Z6f41GA-17" target="2MAcBIraThOZ4Z6f41GA-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2MAcBIraThOZ4Z6f41GA-17" value="建立索引的约束条件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="430" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-19" value="建立索引的约束条件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-22" value="建立索引的约束条件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-24" value="建立索引的约束条件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-28" value="如何保证不失效" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
