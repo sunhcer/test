@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-05-05T14:07:05.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="vjZiPZIq7HHJakG1E9Cv" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-05T14:21:35.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="_q6dAvES1vvVzodNgUaM" version="14.4.4" type="github">
   <diagram id="qWQhet4JKzyGcTZ0pY5L" name="mysql调优">
     <mxGraphModel dx="1103" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2MAcBIraThOZ4Z6f41GA-1" target="2MAcBIraThOZ4Z6f41GA-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2MAcBIraThOZ4Z6f41GA-1" value="架构" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="158.54" y="-371.12" width="130" height="60" as="geometry" />
         </mxCell>
@@ -100,6 +103,9 @@
         <mxCell id="2MAcBIraThOZ4Z6f41GA-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2MAcBIraThOZ4Z6f41GA-32" target="2MAcBIraThOZ4Z6f41GA-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2MAcBIraThOZ4Z6f41GA-32" target="2MAcBIraThOZ4Z6f41GA-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2MAcBIraThOZ4Z6f41GA-32" value="sql慢查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
@@ -120,6 +126,12 @@
         </mxCell>
         <mxCell id="2MAcBIraThOZ4Z6f41GA-46" value="可能是mysql自带的优化器在二次优化时，出了问题，极端情况下可以去掉mysql的优化器，自己实现优化器，可以省掉二次优化的时间和性能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="250" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-48" value="插件式存储引擎架构架构" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="368.53999999999996" y="-371.12" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-50" value="磁盘工具空间不足" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="-320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
