@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-05T13:19:48.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="NnH32iBO4NDdOQcZlCkT" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-05T13:20:15.201Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="FCeyhL7fP1el1NdABqHd" version="14.4.4" type="github">
   <diagram id="qWQhet4JKzyGcTZ0pY5L" name="mysql调优">
     <mxGraphModel dx="1103" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,13 +85,16 @@
         <mxCell id="2MAcBIraThOZ4Z6f41GA-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2MAcBIraThOZ4Z6f41GA-32" target="2MAcBIraThOZ4Z6f41GA-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2MAcBIraThOZ4Z6f41GA-32" target="2MAcBIraThOZ4Z6f41GA-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2MAcBIraThOZ4Z6f41GA-32" value="sql慢查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2MAcBIraThOZ4Z6f41GA-34" value="sql慢查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-34" value="等待时间长" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="-50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2MAcBIraThOZ4Z6f41GA-36" value="sql慢查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-36" value="执行时间长" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="-190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
