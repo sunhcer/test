@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-05T13:20:15.201Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="FCeyhL7fP1el1NdABqHd" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-05T13:24:15.259Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="RJ10hDvwlTCtEI3jke0U" version="14.4.4" type="github">
   <diagram id="qWQhet4JKzyGcTZ0pY5L" name="mysql调优">
     <mxGraphModel dx="1103" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,8 +22,17 @@
         <mxCell id="2MAcBIraThOZ4Z6f41GA-3" value="索引优化分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="490" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2MAcBIraThOZ4Z6f41GA-4" target="2MAcBIraThOZ4Z6f41GA-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2MAcBIraThOZ4Z6f41GA-4" target="2MAcBIraThOZ4Z6f41GA-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2MAcBIraThOZ4Z6f41GA-4" target="2MAcBIraThOZ4Z6f41GA-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2MAcBIraThOZ4Z6f41GA-4" value="查询截取分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1370" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2MAcBIraThOZ4Z6f41GA-5" value="锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="1590" width="120" height="60" as="geometry" />
@@ -96,6 +105,15 @@
         </mxCell>
         <mxCell id="2MAcBIraThOZ4Z6f41GA-36" value="执行时间长" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="-190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-39" value="慢查询日志分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-40" value="建立索引的约束条件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2MAcBIraThOZ4Z6f41GA-41" value="建立索引的约束条件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
