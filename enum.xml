@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-05T05:18:01.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="H4f1V-ideCrvBjlOita3" version="14.6.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-05T09:10:18.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="spJLC1EXTWrTWJjk_Zwp" version="14.6.9" type="github" pages="2">
   <diagram id="qWQhet4JKzyGcTZ0pY5L" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,10 +8,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6vG4wjZ4BXczl0L5VaCl" name="Page-2">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ihfwQLZpTLdVpzN1XF0t-0" />
         <mxCell id="ihfwQLZpTLdVpzN1XF0t-1" parent="ihfwQLZpTLdVpzN1XF0t-0" />
+        <mxCell id="ihfwQLZpTLdVpzN1XF0t-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ihfwQLZpTLdVpzN1XF0t-1" source="ihfwQLZpTLdVpzN1XF0t-2" target="ihfwQLZpTLdVpzN1XF0t-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ihfwQLZpTLdVpzN1XF0t-2" value="死锁排查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ihfwQLZpTLdVpzN1XF0t-1">
+          <mxGeometry x="-70" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihfwQLZpTLdVpzN1XF0t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ihfwQLZpTLdVpzN1XF0t-1" source="ihfwQLZpTLdVpzN1XF0t-3" target="ihfwQLZpTLdVpzN1XF0t-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihfwQLZpTLdVpzN1XF0t-3" value="jps&amp;nbsp; -l&amp;nbsp;&lt;br&gt;获取进程id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ihfwQLZpTLdVpzN1XF0t-1">
+          <mxGeometry x="130" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihfwQLZpTLdVpzN1XF0t-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ihfwQLZpTLdVpzN1XF0t-1" source="ihfwQLZpTLdVpzN1XF0t-6" target="ihfwQLZpTLdVpzN1XF0t-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ihfwQLZpTLdVpzN1XF0t-6" value="jstack -l 端口号&lt;br&gt;查看是否死锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ihfwQLZpTLdVpzN1XF0t-1">
+          <mxGeometry x="340" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihfwQLZpTLdVpzN1XF0t-7" value="tskill 端口号&lt;br&gt;杀进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ihfwQLZpTLdVpzN1XF0t-1">
+          <mxGeometry x="540" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
